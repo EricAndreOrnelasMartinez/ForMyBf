@@ -1,5 +1,6 @@
 body{
-    background-image: url('imagenes/prueba2.jpg');
+    background-image: url('imagenes/prueba1.jpg');
+    background-size: 100%;
 }
 
 .contenerdor{
