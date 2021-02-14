@@ -1,0 +1,68 @@
+body{
+    background-image: url('imagenes/prueba2.jpg');
+}
+
+.contenerdor{
+    width: 300px;
+    height: 40px;
+    color: white;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.frase{
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 28s infinite;
+
+}
+ul , p{
+    margin: 0;
+}
+
+@keyframes cambiar{
+    0%{margin-top: 0;}
+    13%{margin-top: 0;}
+    15%{margin-top: -40px;}
+    27%{margin-top: -40px;}
+    29%{margin-top: -80px;}
+    42%{margin-top: -80px;}
+    44%{margin-top: -120px;}
+    57%{margin-top: -120px;}
+    59%{margin-top: -160px;}
+    72%{margin-top: -160px;}
+    74%{margin-top: -200px;}
+    87%{margin-top: -200px;}
+    89%{margin-top: -240px;}
+    100%{margin-top: -240px;}
+}
+.slider{
+    margin: auto;
+    overflow: hidden;
+    height: 470px;
+    width: 29%;
+}
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 400%;
+    animation: cambioI 15s infinite;
+    animation-direction: alternate;
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+
+@keyframes cambioI{
+    0%{margin-left: 0;}
+    30%{margin-left: 0;}
+    35%{margin-left: -130%;}
+    65%{margin-left: -130%;}
+    70%{margin-left: -265%;}
+    100%{margin-left: -265%;}
+}
